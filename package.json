@@ -1,0 +1,22 @@
+{
+  "name": "example-dist-plugin",
+  "version": "1.0.0",
+  "description": "Example Plugin for br-wordpress-gulp-dist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eteubert/example-dist-plugin.git"
+  },
+  "author": "Eric Teubert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eteubert/example-dist-plugin/issues"
+  },
+  "homepage": "https://github.com/eteubert/example-dist-plugin#readme",
+  "devDependencies": {
+    "br-wordpress-gulp-dist": "file:///Users/ericteubert/code/br-wordpress-gulp-dist"
+  }
+}
