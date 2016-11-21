@@ -1,6 +1,6 @@
 {
   "name": "example-dist-plugin",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "description": "Example Plugin for br-wordpress-gulp-dist",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/eteubert/example-dist-plugin#readme",
   "devDependencies": {
-    "br-wordpress-gulp-dist": "file:///Users/ericteubert/code/br-wordpress-gulp-dist"
+    "br-wordpress-gulp-dist": "file:///Users/ericteubert/code/br-wordpress-gulp-dist",
+    "gulp": "^3.9.1",
+    "run-sequence": "^1.2.2"
   }
 }
