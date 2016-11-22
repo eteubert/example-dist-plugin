@@ -1,6 +1,6 @@
 {
   "name": "example-dist-plugin",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "Example Plugin for br-wordpress-gulp-dist",
   "main": "index.js",
   "scripts": {
