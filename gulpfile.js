@@ -3,12 +3,15 @@ var runSequence = require('run-sequence');
 var githubConfig = require('github-config');
 // var dist = require('br-wordpress-gulp-dist');
 var dist = require('/Users/ericteubert/code/br-wordpress-gulp-dist/dist.js');
-var path = require('path');
 
 var config = {
     pluginFile: './plugin.php',
-    manifest: path.resolve('./package.json'),
-    token: githubConfig().token
+    manifest: './package.json',
+    token: githubConfig().token,
+    repo: {
+        name: 'example-dist-plugin',
+        owner: 'eteubert'
+    }
 };
 
 gulp.task('release', function() {
