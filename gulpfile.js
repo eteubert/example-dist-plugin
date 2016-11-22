@@ -7,11 +7,7 @@ var dist = require('/Users/ericteubert/code/br-wordpress-gulp-dist/dist.js');
 var config = {
     pluginFile: './plugin.php',
     manifest: './package.json',
-    token: githubConfig().token,
-    repo: {
-        name: 'example-dist-plugin',
-        owner: 'eteubert'
-    }
+    token: githubConfig().token
 };
 
 gulp.task('release', function() {
