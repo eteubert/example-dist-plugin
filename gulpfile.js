@@ -6,7 +6,7 @@ var dist = require('/Users/ericteubert/code/br-wordpress-gulp-dist/dist.js');
 
 var config = {
     pluginFile: './plugin.php',
-    manifest: require('./package.json'),
+    manifest: './package.json',
     token: githubConfig().token
 };
 
