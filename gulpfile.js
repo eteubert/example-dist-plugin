@@ -6,7 +6,7 @@ var dist = require('br-wordpress-gulp-dist');
 var path = require('path');
 
 var config = {
-    pluginFile: './plugin.php',
+    pluginFile: path.resolve('./plugin.php'),
     manifest:   path.resolve('./package.json'),
     token:      githubConfig().token
 };
