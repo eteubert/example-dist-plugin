@@ -11,6 +11,8 @@ var config = {
     token:      githubConfig().token
 };
 
+release = dist(config);
+
 gulp.task('release', function() {
     runSequence(
         'bump-version',
@@ -22,13 +24,9 @@ gulp.task('release', function() {
     );
 });
 
-gulp.task('bump-version', dist.bumpVersion);
-gulp.task('update-plugin-file-version', function() {
-    return dist.updateWordPressPluginFile(config);
-});
-gulp.task('make-asset', dist.makeReleaseAsset);
-gulp.task('deploy-asset', function() {
-    return dist.deployReleaseAsset(config);
-});
-gulp.task('commit-changes', dist.commitAllChanges);
-gulp.task('tag-and-push', dist.tagAndPush);
+gulp.task('bump-version', release.bumpVersion);
+gulp.task('update-plugin-file-version', release.updateWordPressPluginFile);
+gulp.task('make-asset', release.makeReleaseAsset);
+gulp.task('deploy-asset', release.deployReleaseAsset);
+gulp.task('commit-changes', release.commitAllChanges);
+gulp.task('tag-and-push', release.tagAndPush);

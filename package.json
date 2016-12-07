@@ -22,6 +22,6 @@
     "run-sequence": "^1.2.2"
   },
   "dependencies": {
-    "br-wordpress-gulp-dist": "https://github.com/digitalegarage/br-wordpress-gulp-dist"
+    "br-wordpress-gulp-dist": "^2.0.0"
   }
 }
