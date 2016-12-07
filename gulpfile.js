@@ -1,8 +1,8 @@
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
 var githubConfig = require('github-config');
-var dist = require('br-wordpress-gulp-dist');
-// var dist = require('/Users/ericteubert/code/br-wordpress-gulp-dist/dist.js');
+// var dist = require('br-wordpress-gulp-dist');
+var dist = require('/Users/ericteubert/code/br-wordpress-gulp-dist/dist.js');
 var path = require('path');
 
 var config = {
