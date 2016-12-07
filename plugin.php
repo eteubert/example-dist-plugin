@@ -8,5 +8,7 @@
  * Author URI:  http://example.com
  * License:     MIT
  * Text Domain: example-dist-plugin
+ * GitHub Plugin URI: https://github.com/eteubert/example-dist-plugin
+ * Release Asset: true
  */
 

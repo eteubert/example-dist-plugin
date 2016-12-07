@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/eteubert/example-dist-plugin#readme",
   "devDependencies": {
-    "br-wordpress-gulp-dist": "file:///Users/ericteubert/code/br-wordpress-gulp-dist",
     "github-config": "^1.0.2",
     "gulp": "^3.9.1",
     "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "br-wordpress-gulp-dist": "https://github.com/digitalegarage/br-wordpress-gulp-dist"
   }
 }
