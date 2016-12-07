@@ -11,22 +11,22 @@ var config = {
     token:      githubConfig().token
 };
 
-release = dist(config);
-
+var release = dist(config);
+ 
 gulp.task('release', function() {
     runSequence(
         'bump-version',
         'update-plugin-file-version',
         'commit-changes',
-        'tag-and-push',
+        'push',
         'make-asset',
-        'deploy-asset'
+        'github-release-with-asset'
     );
 });
-
+ 
 gulp.task('bump-version', release.bumpVersion);
 gulp.task('update-plugin-file-version', release.updateWordPressPluginFile);
 gulp.task('make-asset', release.makeReleaseAsset);
-gulp.task('deploy-asset', release.deployReleaseAsset);
+gulp.task('github-release-with-asset', release.deployReleaseAsset);
 gulp.task('commit-changes', release.commitAllChanges);
-gulp.task('tag-and-push', release.tagAndPush);
+gulp.task('push', release.push);
