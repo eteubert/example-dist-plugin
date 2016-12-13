@@ -3,7 +3,7 @@
  * Plugin Name: Example Dist Plugin
  * Plugin URI:  http://example.com
  * Description: A shining example.
- * Version:     1.2.10
+ * Version:     1.2.11
  * Author:      Eric Teubert
  * Author URI:  http://example.com
  * License:     MIT
