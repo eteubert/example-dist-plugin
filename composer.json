@@ -1,0 +1,19 @@
+{
+    "name": "example-dist-plugin",
+    "homepage": "https://github.com/eteubert/example-dist-plugin",
+    "description": "Example Plugin for br-wordpress-gulp-dist",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Teubert",
+            "homepage": "https://ericteubert.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+
+    }
+}
